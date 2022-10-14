@@ -13,3 +13,6 @@ For my own personal inspiration I will study the following sites:
 - https://www.poetryfoundation.org/
 - https://poets.org/
 - https://poems.com/
+
+## Project Tracker
+https://trello.com/invite/b/UC42IhmR/7e5488bb26b9d6563695ad48f5f53f00/project-1
