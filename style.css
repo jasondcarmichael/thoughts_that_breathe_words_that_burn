@@ -28,6 +28,10 @@ h1 {
     padding: 20px;
 }
 
+#poem {
+    list-style-type: none;
+}
+
 #quotation {
     color: gray;
 }
