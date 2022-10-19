@@ -29,13 +29,14 @@ async function getData (event) {
         for (let i = 0; i < res[1].lines.length; i++) {
             let poemLine = document.createElement('li')
             poem.appendChild(poemLine)
-            // poemLine.innerText = res[1].lines[i]
+            //poemLine.innerText = res[1].lines[i]
             
             if (res[1].lines[i] !== "") {
                 poemLine.innerText = res[1].lines[i]
             } else {
-                poemLine.innerText = "-"
-            } // Why won't this display unless i put a character? Not even a space???
+                 poemLine.innerText = "-"
+            } 
+            // Why won't this display unless i put a character? Not even a space???
            
             console.log(res[1].lines[i])
         }
