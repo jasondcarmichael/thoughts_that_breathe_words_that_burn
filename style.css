@@ -20,9 +20,9 @@ footer {
 
 header {
     display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: left;
+    /* flex-flow: column wrap; */
+    justify-content: left;
+    align-items: top;
     padding: 15px;
     background-color: #49494B;
     border-radius: 3px;
@@ -34,16 +34,17 @@ header {
 h1 {
     /* font-size: 36px; */
     color: white;
-    border-bottom: 2px solid #ffdf6c;
-    padding: 15px;
+    border-right: 2px solid #ffdf6c;
+    padding-left: 15px;
+    padding-right: 30px;
     margin: 1px;
 
 }
 
 #subtitle {
     color: #8e8e90;
-    padding-left: 15px;
-    margin-bottom: 1px;
+    padding-left: 30px;
+   
 }
 
 #output {
@@ -54,11 +55,13 @@ h1 {
 }
 
 #poem {
-    list-style-type: none;
+    color: #49494B;
 }
 
 #poetName {
     color: #8e8e90;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 #quotation {
@@ -80,15 +83,26 @@ h1 {
     
 }
 
+#instructions {
+   padding: 15px;
+}
+#inputBar {
+    color: #8e8e90;
+    font-family: 'Alegreya', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 #search-bar {
-    padding: 24px;
+    padding: 15px;
 }
 
 #search-button {
     background-color: #ffdf6c;
     border-color: #ffdf6c;
+    font-family: 'Alegreya', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #title {
     color: #49494B;
+    margin: 0px;
+
 }
