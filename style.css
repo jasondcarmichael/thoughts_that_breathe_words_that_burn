@@ -4,6 +4,14 @@ body {
     color: #49494B;
 }
 
+footer {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: left;
+    padding: 15px;
+    background-color: #49494B;
+}
+
 #search-poet {
     display: flex;
     justify-content: center;
@@ -24,7 +32,7 @@ header {
 h1 {
     /* font-size: 36px; */
     color: white;
-    border-bottom: 1px solid #ffdf6c;
+    border-bottom: 2px solid #ffdf6c;
     padding: 15px;
     margin: 1px;
 
@@ -53,21 +61,21 @@ h1 {
 
 #quotation {
     color: white;
-    padding-left: 15px;
-    padding-top: 15px;
+    padding-left: 25px;
+    padding-top: 10px;
     padding-bottom: 5px;
+    margin-top: 0px;
     margin-bottom: 0px;
-    background-color: #8e8e90;
-    
+    border-top: 2px solid #ffdf6c;
 }
 
 #quote-name {
-    padding-left: 30px;
-    padding-bottom: 15px;
+    padding-left: 32px;
     margin-top: 0px;
+    margin-bottom: 8px;
     font-size: 12px;
-    color: white;
-    background-color: #8e8e90;
+    color: #8e8e90;
+    
 }
 
 #search-bar {
