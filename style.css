@@ -18,46 +18,45 @@ footer {
     justify-content: center;
 }
 
+/* // Header Styling */
 header {
     display: flex;
-    /* flex-flow: column wrap; */
-    justify-content: left;
-    align-items: top;
+    flex-flow: row wrap;
+    /* justify-content: flex-start; */
+    align-items: center;
     padding: 15px;
     background-color: #49494B;
-    border-radius: 3px;
-    
+    border-radius: 3px; 
 }
 
 h1 {
     color: white;
-    border-right: 2px solid #ffdf6c;
+    border-right: 2.5px solid #ffdf6c;
     padding-left: 15px;
     padding-right: 30px;
     margin: 1px;
-
 }
 
 #subtitle {
+    /* font-size: 27.5px; */
     color: #8e8e90;
-    padding-left: 30px;
-    padding-right: 15px;
+    padding-left: 15px;
+    /* padding-right: 15px; */
     /* border-right: 2px solid #ffdf6c; */
 }
 
-#poets-included {
+#poet-examples {
     color: #8e8e90;
-    padding-left: 30px;
-    border-left: 2px solid #ffdf6c;
-    border-right: none;
-}
-
-#examples {
-    list-style-type: none;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 20px;
+    text-align: justify;
+    text-justify: inter-word;
     font-size: 12px;
+    border-top: .5px solid #ffdf6c;
 }
 
-
+/* // Poem Output Styling */
 #output {
     display: flex;
     flex-direction: column;
@@ -75,6 +74,7 @@ h1 {
     margin-bottom: 20px;
 }
 
+/* // Footer Styling */
 #quotation {
     color: white;
     padding-left: 15px;
@@ -82,7 +82,7 @@ h1 {
     padding-bottom: 5px;
     margin-top: 0px;
     margin-bottom: 0px;
-    border-top: 1.5px solid #ffdf6c;
+    border-top: .5px solid #ffdf6c;
 }
 
 #quote-name {
@@ -94,16 +94,12 @@ h1 {
     
 }
 
+/* // Search Area Styling */
 #instructions {
    padding: 15px;
 }
 
-#poet-examples {
-    color: #8e8e90;
-    padding: 25px;
-    text-align: justify;
-    text-justify: inter-word;
-}
+
 
 #inputBar {
     color: #8e8e90;
