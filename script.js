@@ -1,6 +1,5 @@
 console.log('working')
 
-// Global Variables
 let button = document.querySelector('#search-button')
 
 
@@ -44,5 +43,4 @@ async function getData (event) {
 }
 
 
-// 1 attach Event to Button
 button.addEventListener('click', getData)
