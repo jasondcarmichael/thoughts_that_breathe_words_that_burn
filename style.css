@@ -10,6 +10,7 @@ footer {
     align-items: left;
     padding: 15px;
     background-color: #49494B;
+    border-radius: 3px;
 }
 
 #search-poet {
@@ -24,6 +25,7 @@ header {
     align-items: left;
     padding: 15px;
     background-color: #49494B;
+    border-radius: 3px;
     /* color: #f5f5f5; */
     /* width: 100%;
     height: 100%; */
@@ -61,16 +63,16 @@ h1 {
 
 #quotation {
     color: white;
-    padding-left: 25px;
-    padding-top: 10px;
+    padding-left: 15px;
+    padding-top: 11px;
     padding-bottom: 5px;
     margin-top: 0px;
     margin-bottom: 0px;
-    border-top: 2px solid #ffdf6c;
+    border-top: 1.5px solid #ffdf6c;
 }
 
 #quote-name {
-    padding-left: 32px;
+    padding-left: 25px;
     margin-top: 0px;
     margin-bottom: 8px;
     font-size: 12px;
