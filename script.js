@@ -1,7 +1,7 @@
 console.log('working')
 
 // Global Variables
-let button = document.querySelector('#searchButton')
+let button = document.querySelector('#search-button')
 
 
 async function getData (event) {
