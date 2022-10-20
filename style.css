@@ -41,6 +41,7 @@ h1 {
 #subtitle {
     color: #8e8e90;
     padding-left: 30px;
+    padding-right: 15px;
     /* border-right: 2px solid #ffdf6c; */
 }
 
@@ -48,6 +49,7 @@ h1 {
     color: #8e8e90;
     padding-left: 30px;
     border-left: 2px solid #ffdf6c;
+    border-right: none;
 }
 
 #examples {
@@ -95,6 +97,14 @@ h1 {
 #instructions {
    padding: 15px;
 }
+
+#poet-examples {
+    color: #8e8e90;
+    padding: 25px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 #inputBar {
     color: #8e8e90;
     font-family: 'Alegreya', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;

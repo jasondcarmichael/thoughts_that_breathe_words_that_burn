@@ -16,6 +16,7 @@ The following sites provide similar service on a much larger scale:
 
 ## Project Tracker
 To manage this project, I am using Trello to create to-do lists and deadline reminders, and to set goals and important milestones. The project can be followed here:
+
 https://trello.com/invite/b/UC42IhmR/7e5488bb26b9d6563695ad48f5f53f00/project-1
 
 ## Initial Wireframe
