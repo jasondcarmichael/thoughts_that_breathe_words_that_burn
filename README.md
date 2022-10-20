@@ -20,4 +20,5 @@ https://trello.com/invite/b/UC42IhmR/7e5488bb26b9d6563695ad48f5f53f00/project-1
 ## Initial Wireframe
 
 ![wireframe]
-(https://github.com/jasondcarmichael/thoughts_that_breathe_words_that_burn/blob/main/assets/wireframe_poetry_website.png)
+<img src="assets/images/wireframe_poetry_website.png">
+
