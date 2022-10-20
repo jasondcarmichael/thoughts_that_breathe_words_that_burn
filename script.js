@@ -15,16 +15,16 @@ async function getData (event) {
     .then(res =>{
         console.log('success!', res)
         let poetName = document.querySelector('#poetName')
-        poetName.innerText = res[1].author
+        poetName.innerText = `By ${res[1].author}`
 
         let poemTitle = document.querySelector('#title')
         poemTitle.innerText = res[1].title
 
-        let numPoems = document.querySelector('#numPoems')
-        numPoems.innerText = `${res.length} poems available`
+        // let numPoems = document.querySelector('#numPoems')
+        // numPoems.innerText = `${res.length} poems available`
 
         let poem = document.querySelector('#poem')
-        poem.innerText = res[1].title
+        //poem.innerText = res[1].title
         
         for (let i = 0; i < res[1].lines.length; i++) {
             let poemLine = document.createElement('li')

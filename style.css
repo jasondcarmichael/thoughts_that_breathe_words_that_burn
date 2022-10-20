@@ -1,6 +1,7 @@
 body {
     font-family: 'Alegreya', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: #f5f5f5;
+    color: #49494B;
 }
 
 div {
@@ -46,6 +47,10 @@ h1 {
     list-style-type: none;
 }
 
+#poetName {
+    color: #8e8e90;
+}
+
 #quotation {
     color: white;
     padding-left: 15px;
@@ -76,4 +81,8 @@ h1 {
 #search-button {
     background-color: #ffdf6c;
     border-color: #ffdf6c;
+}
+
+#title {
+    color: #49494B;
 }
