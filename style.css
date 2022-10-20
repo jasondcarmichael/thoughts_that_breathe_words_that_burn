@@ -4,7 +4,7 @@ body {
     color: #49494B;
 }
 
-div {
+#search-poet {
     display: flex;
     justify-content: center;
 }
@@ -22,7 +22,7 @@ header {
 }
 
 h1 {
-    font-size: 36px;
+    /* font-size: 36px; */
     color: white;
     border-bottom: 1px solid #ffdf6c;
     padding: 15px;
@@ -72,10 +72,6 @@ h1 {
 
 #search-bar {
     padding: 24px;
-}
-
-#stanza-break {
-    display: list-item;
 }
 
 #search-button {
