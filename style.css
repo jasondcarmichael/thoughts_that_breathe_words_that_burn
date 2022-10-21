@@ -4,38 +4,18 @@ body {
     color: #49494B;
 }
 
-footer {
-    display: flex;
-    flex-flow: column wrap;
-    align-items: left;
-    padding: 15px;
-    background-color: #49494B;
-    border-radius: 3px;
-}
-
-#search-poet {
-    display: flex;
-    justify-content: center;
-}
-
 /* // Header Styling */
 header {
     display: flex;
     flex-flow: row wrap;
-    /* justify-content: flex-start; */
     align-items: center;
     padding: 15px;
     background-color: #49494B;
     border-radius: 3px; 
-}
-
-/* header>* {
-    flex: 1 1 160px;
-    /* flex: 2 1 200px; */
-/* } */ 
+} 
 
 h1 {
-    color: white;
+    color: #fefefe;
     border-right: .5px solid #ffdf6c;
     padding-left: 15px;
     padding-right: 25px;
@@ -60,6 +40,46 @@ h1 {
     border-top: .5px solid #ffdf6c;
 }
 
+/* // Search Area Styling */
+#search-poet {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: baseline;
+    color: #49494B;
+}
+
+input[type=text]:focus {
+    color: #49494B;
+    border: 2px solid #49494B;
+    outline: none;
+}
+
+::placeholder {
+    color: #8e8e90;
+}
+
+#input-bar {
+    color: #49494B;
+    font-family: 'Alegreya', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#search-bar {
+    padding: 15px;
+}
+
+#search-button {
+    background-color: #ffdf6c;
+    border-color: #ffdf6c;
+    color: #49494B;
+    font-family: 'Alegreya', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#title {
+    color: #49494B;
+    margin: 0px;
+}
+
 /* // Poem Output Styling */
 #output {
     display: flex;
@@ -72,15 +92,24 @@ h1 {
     color: #49494B;
 }
 
-#poetName {
+#poet-name {
     color: #8e8e90;
     margin-top: 10px;
     margin-bottom: 20px;
 }
 
 /* // Footer Styling */
+footer {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: left;
+    padding: 15px;
+    background-color: #49494B;
+    border-radius: 3px;
+}
+
 #quotation {
-    color: white;
+    color: #f5f5f5;
     padding-left: 15px;
     padding-top: 11px;
     padding-bottom: 5px;
@@ -95,37 +124,9 @@ h1 {
     margin-bottom: 8px;
     font-size: 12px;
     color: #8e8e90;
-    
 }
 
-/* // Search Area Styling */
-#instructions {
-   padding: 15px;
-}
-
-
-
-#inputBar {
-    color: #8e8e90;
-    font-family: 'Alegreya', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-#search-bar {
-    padding: 15px;
-}
-
-#search-button {
-    background-color: #ffdf6c;
-    border-color: #ffdf6c;
-    font-family: 'Alegreya', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-#title {
-    color: #49494B;
-    margin: 0px;
-
-}
-
+/* // MEDIA QUERIES */
 @media screen and (max-width: 640px) {
     header {
         flex-direction: column;
@@ -139,7 +140,7 @@ h1 {
         border-bottom: 1px solid #ffdf6c;
     }
     #subtitle {
-        font-size: 95%;
+        font-size: 80%;
         padding-left: 15px;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -147,11 +148,26 @@ h1 {
     }
     #poet-examples {
         max-width: 450px;
-        font-size: 75%;
+        font-size: 60%;
         padding-top: 10px;
         margin: 0px;
     }
 }
+
+@media screen and (max-width: 470px) {
+    #search-poet {
+        flex-direction: column;
+        align-items: center;
+    }
+    #instructions {
+        margin: 0px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    #search-bar {
+        margin: 0px;
+        padding: 3px;
+    }
 
 @media screen and (max-width: 400px) {
     header {
@@ -169,10 +185,12 @@ h1 {
         font-size: 75%;
         padding-left: 15px;
         padding-top: 10px;
-        /* padding-bottom: 10px; */
         margin: 0px;
     }
     #poet-examples {
         display: none;
+    }
+    #quotation {
+        font-size: 75%;
     }
 }

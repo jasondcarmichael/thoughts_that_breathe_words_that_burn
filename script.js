@@ -5,7 +5,7 @@ let button = document.querySelector('#search-button')
 
 async function getData (event) {
     event.preventDefault()
-    let textInput = document.querySelector('#inputBar').value
+    let textInput = document.querySelector('#input-bar').value
 
     fetch(`https://poetrydb.org/author/${textInput}`)
     .then(res => {
@@ -17,7 +17,7 @@ async function getData (event) {
         let poemTitle = document.querySelector('#title')
         poemTitle.innerText = res[1].title
 
-        let poetName = document.querySelector('#poetName')
+        let poetName = document.querySelector('#poet-name')
         poetName.innerText = `By ${res[1].author}`
 
         let poem = document.querySelector('#poem')
