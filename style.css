@@ -29,20 +29,23 @@ header {
     border-radius: 3px; 
 }
 
+/* header>* {
+    flex: 1 1 160px;
+    /* flex: 2 1 200px; */
+/* } */ 
+
 h1 {
     color: white;
-    border-right: 2.5px solid #ffdf6c;
+    border-right: .5px solid #ffdf6c;
     padding-left: 15px;
-    padding-right: 30px;
+    padding-right: 25px;
     margin: 1px;
 }
 
 #subtitle {
-    /* font-size: 27.5px; */
     color: #8e8e90;
-    padding-left: 15px;
-    /* padding-right: 15px; */
-    /* border-right: 2px solid #ffdf6c; */
+    padding-left: 20px;
+    padding-right: 15px;
 }
 
 #poet-examples {
@@ -50,6 +53,7 @@ h1 {
     padding-left: 15px;
     padding-top: 15px;
     padding-right: 20px;
+    margin: 0px;
     text-align: justify;
     text-justify: inter-word;
     font-size: 12px;
@@ -120,4 +124,55 @@ h1 {
     color: #49494B;
     margin: 0px;
 
+}
+
+@media screen and (max-width: 640px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    h1 {
+        font-size: 150%;
+        border-right: none;
+        padding-bottom: 10px;
+        margin: 0px;
+        border-bottom: 1px solid #ffdf6c;
+    }
+    #subtitle {
+        font-size: 95%;
+        padding-left: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 0px;
+    }
+    #poet-examples {
+        max-width: 450px;
+        font-size: 75%;
+        padding-top: 10px;
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    h1 {
+        font-size: 150%;
+        border-right: none;
+        padding-bottom: 10px;
+        margin: 0px;
+        border-bottom: 1px solid #ffdf6c;
+    }
+    #subtitle {
+        font-size: 75%;
+        padding-left: 15px;
+        padding-top: 10px;
+        /* padding-bottom: 10px; */
+        margin: 0px;
+    }
+    #poet-examples {
+        display: none;
+    }
 }
